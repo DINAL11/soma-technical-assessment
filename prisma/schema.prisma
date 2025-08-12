@@ -11,4 +11,20 @@ model Todo {
   id        Int      @id @default(autoincrement())
   title     String
   createdAt DateTime  @default(now())
+  dueDate      DateTime?  
+  imageUrl     String?    
+
+  dependencies TodoDependency[] @relation("Dependencies")
+  dependents   TodoDependency[] @relation("Dependents")
+}
+
+model TodoDependency {
+  id          Int   @id @default(autoincrement())
+  todoId      Int
+  dependsOnId Int
+
+  todo        Todo  @relation("Dependencies", fields: [todoId], references: [id])
+  dependsOn   Todo  @relation("Dependents", fields: [dependsOnId], references: [id])
+
+  @@unique([todoId, dependsOnId])
 }
