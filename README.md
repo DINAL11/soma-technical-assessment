@@ -75,18 +75,10 @@ This solution implements all three parts of the Soma Capital Technical Assessmen
 - Calculated the **earliest start date** for each task based on dependencies.
 - Visualized the dependency graph using [d3-graphs] to show the **critical path** clearly.
 
-### Screenshots / Recording
-
-#### Task List with Due Dates
-![Due Dates Screenshot](./screenshots)
-
-#### Image Preview from Pexels API
-![Image Preview Screenshot](./screenshots)
-
-#### Dependency Graph Visualization
-![Dependency Graph Screenshot](./screenshots)
+### Recording
 
 ### Video
+- A demo video showing Task List with Due Dates, Image Preview from Pexels API,  Task Dependency and Dependency Graph Visualization.
 ![Sample Working Video](./video)
 
 ### My Approach
