@@ -79,7 +79,8 @@ This solution implements all three parts of the Soma Capital Technical Assessmen
 
 ### Video
 - A demo video showing Task List with Due Dates, Image Preview from Pexels API,  Task Dependency and Dependency Graph Visualization.
-![Sample Working Video](https://drive.google.com/file/d/13g5x48FX5GVWRLkSP5sTmsTae4zGEmJU/view?usp=sharing)
+- Watch the demo video [here](https://drive.google.com/file/d/13g5x48FX5GVWRLkSP5sTmsTae4zGEmJU/view?usp=sharing).
+
 
 ### My Approach
 - First understood the project structure and requirements.
