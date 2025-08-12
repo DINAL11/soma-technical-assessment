@@ -76,7 +76,6 @@ This solution implements all three parts of the Soma Capital Technical Assessmen
 - Visualized the dependency graph using [d3-graphs] to show the **critical path** clearly.
 
 ### Screenshots / Recording
-> **Note:** Replace the placeholders below with your actual screenshots or recordings.
 
 #### Task List with Due Dates
 ![Due Dates Screenshot](./screenshots)
