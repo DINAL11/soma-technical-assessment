@@ -73,23 +73,47 @@ This solution implements all three parts of the Soma Capital Technical Assessmen
 - Added the ability for tasks to have **multiple dependencies**.
 - Prevented **circular dependencies** using dependency checks before saving.
 - Calculated the **earliest start date** for each task based on dependencies.
-- Visualized the dependency graph using [Library Name or Custom Visualization] to show the **critical path** clearly.
+- Visualized the dependency graph using [d3-graphs] to show the **critical path** clearly.
 
 ### Screenshots / Recording
 > **Note:** Replace the placeholders below with your actual screenshots or recordings.
 
 #### Task List with Due Dates
-![Due Dates Screenshot](./screenshots/due-dates.png)
+![Due Dates Screenshot](./screenshots)
 
 #### Image Preview from Pexels API
-![Image Preview Screenshot](./screenshots/image-preview.png)
+![Image Preview Screenshot](./screenshots)
 
 #### Dependency Graph Visualization
-![Dependency Graph Screenshot](./screenshots/dependency-graph.png)
+![Dependency Graph Screenshot](./screenshots)
 
-### How to Run
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   npm install
+### Video
+![Sample Working Video](./video)
+
+### My Approach
+- First understood the project structure and requirements.
+- Broke down tasks into smaller steps (API updates, UI changes, DB changes).
+- Worked locally, tested each change immediately.
+- Followed a step-by-step debugging process whenever issues came up.
+- Kept changes clean and meaningful before committing.
+
+### Problems / Difficulties Faced
+- Some files and folder structure were new to me.
+- Faced type errors and missing dependencies.
+- Database migration issues while adding new features.
+- Needed to understand how existing API and frontend connect.
+
+### How I Resolved Them
+- Read through existing code to understand patterns.
+- Installed and configured missing dependencies.
+- Re-ran Prisma migrations after fixing schema changes.
+- Used console logs and error outputs to track and fix issues quickly.
+- Cross-checked with documentation and small test runs.
+
+---
+
+I have spent a good amount of time and effort on this task.  
+I hope the result reflects the work and is worth the time I invested. 🙂
+
+
 
