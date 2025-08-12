@@ -53,3 +53,43 @@ Implement a task dependency system that allows tasks to depend on other tasks. T
 3. Submit a link to your repository in the application form.
 
 Thanks for your time and effort. We'll be in touch soon!
+
+
+## Solution
+
+This solution implements all three parts of the Soma Capital Technical Assessment: **Due Dates**, **Image Generation**, and **Task Dependencies**.
+
+### 1. Due Dates
+- Added a date picker when creating a new task to set a **due date**.
+- Due date is displayed alongside the task.
+- If the due date has passed, it is shown **in red** to indicate it’s overdue.
+
+### 2. Image Generation
+- Integrated the **Pexels API** to fetch a relevant image based on the task description.
+- Displays a loading spinner until the image is fetched.
+- The image is displayed as a thumbnail within the task item.
+
+### 3. Task Dependencies
+- Added the ability for tasks to have **multiple dependencies**.
+- Prevented **circular dependencies** using dependency checks before saving.
+- Calculated the **earliest start date** for each task based on dependencies.
+- Visualized the dependency graph using [Library Name or Custom Visualization] to show the **critical path** clearly.
+
+### Screenshots / Recording
+> **Note:** Replace the placeholders below with your actual screenshots or recordings.
+
+#### Task List with Due Dates
+![Due Dates Screenshot](./screenshots/due-dates.png)
+
+#### Image Preview from Pexels API
+![Image Preview Screenshot](./screenshots/image-preview.png)
+
+#### Dependency Graph Visualization
+![Dependency Graph Screenshot](./screenshots/dependency-graph.png)
+
+### How to Run
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   npm install
+
